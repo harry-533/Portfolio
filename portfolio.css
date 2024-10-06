@@ -306,6 +306,7 @@ li {
 
 .certificate-img {
     width: 400px;
+    border-radius: 5px;
 }
 
 .certificate-btn, .certificate-btn-mobile {
