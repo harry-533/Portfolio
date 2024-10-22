@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="horl.css">
+        <script src="horl.js"></script>
+        <link rel="icon" href="../images/horl/hollogo.png">
+        <title>Higher or Lower</title>
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="menu">
+            <div class="logo"><img class="logo-img" src="../images/horl/mainlogo.png"></div>
+            <div class="menu-title">Which company has the higher stock price?</div>
+            <div class="menu-para">Test your knowledge on the biggest companies in the world.<br>A game of higher or lower using the stock market.</div>
+            <div class="menu-btns">
+                <div id="price" class="menu-btn-sp game-btn">Stock Price</div>
+                <div id="annual" class="menu-btn-ar game-btn">Annual Return</div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="left-slide blur">
+                <div class="bg-image-l"><img class="stock-img-l"></div>
+                <div class="stock-detail-l">
+                    <div class="stock-name-l"></div>
+                    <div class="stock-ticker-l"></div>
+                    <div class="stock-value-l"></div>
+                    <div class="stock-para-l"></div>
+                </div>
+            </div>
+            <div class="right-slide blur">
+                <div class="bg-image-r"><img class="stock-img-r"></div>
+                <div class="stock-detail-r">
+                    <div class="stock-name-r"></div>
+                    <div class="stock-ticker-r"></div>
+                    <div class="stock-value-r"></div>
+                    <div class="stock-btns-r">
+                        <div class="stock-btn-h">Higher</div>
+                        <div class="stock-btn-l">Lower</div>
+                    </div>
+                    <div class="stock-para-r"></div>
+                </div>
+            </div>
+            <div class="round-result"><img class="middle-circle" src="../images/horl/vs.png"></div>
+            <div class="next-btn">Next</div>
+            <div class="end-screen">
+                <div class="end-title">Game Over!</div>
+                <div class="end-para">You scored:</div>
+                <div class="end-score"></div>
+                <div class="end-btn back-btn">Back to menu</div>
+            </div>
+        </div>
+    </body>
+</html>

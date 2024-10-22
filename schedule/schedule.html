@@ -1,0 +1,212 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <script src="sched.js"></script>
+    <link rel="stylesheet" href="sched.css">
+    <title>KICKOFF</title>  <!DOCTYPE html>  
+<html>  
+<body>
+  <div class="top-header">
+    Weekly Sports Schedule
+    <div class="color-btn"></div>
+  </div>
+  <div class="schedule">
+    <div class="header">
+      <div class="time-slot"></div>
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+      <div class="day">Friday</div>
+      <div class="day">Saturday</div>
+      <div class="day">Sunday</div>
+    </div>
+    <div class="body">
+      <div class="time-column">
+        <div class="time-slot">00:00</div>
+        <div class="time-slot">01:00</div>
+        <div class="time-slot">02:00</div>
+        <div class="time-slot">03:00</div>
+        <div class="time-slot">04:00</div>
+        <div class="time-slot">05:00</div>
+        <div class="time-slot">06:00</div>
+        <div class="time-slot">07:00</div>
+        <div class="time-slot">08:00</div>
+        <div class="time-slot">09:00</div>
+        <div class="time-slot">10:00</div>
+        <div class="time-slot">11:00</div>
+        <div class="time-slot">12:00</div>
+        <div class="time-slot">13:00</div>
+        <div class="time-slot">14:00</div>
+        <div class="time-slot">15:00</div>
+        <div class="time-slot">16:00</div>
+        <div class="time-slot">17:00</div>
+        <div class="time-slot">18:00</div>
+        <div class="time-slot">19:00</div>
+        <div class="time-slot">20:00</div>
+        <div class="time-slot">21:00</div>
+        <div class="time-slot">22:00</div>
+        <div class="time-slot">23:00</div>
+      </div>
+      <div class="day-column" data-day="Monday">
+        <div class="event monday">
+          <p class="sport prem-text">Premier League</p>
+          <div class="team">
+            Nottingham Forest vs Crystal Palace
+          </div>
+          <div class="score">
+            20:00pm
+          </div>
+        </div>
+      </div>
+      <div class="day-column" data-day="Tuesday">
+        <div class="event tuesday-5" id="target-section">
+          <p class="sport ucl-text">UCL</p><br>
+          <div class="team AC">
+            AC Milan vs Club Brugge
+          </div>
+          <div class="score">
+            17:45pm
+          </div>
+        </div>
+        <div class="event tuesday-8">
+          <p class="sport ucl-text">UCL</p>
+          <div class="team">
+            Real Madrid vs Borussia Dortmund
+          </div>
+          <div class="score">
+            20:00pm
+          </div>
+        </div>
+      </div>
+      <div class="day-column" data-day="Wednesday">
+        <div class="event tuesday-5">
+          <p class="sport ucl-text">UCL</p><br>
+          <div class="team AC">
+            Atalanta vs Celtic
+          </div>
+          <div class="score">
+            17:45pm
+          </div>
+        </div>
+        <div class="event tuesday-8">
+          <p class="sport ucl-text">UCL</p><br>
+          <div class="team AC">
+            RB Leipzig vs Liverpool
+          </div>
+          <div class="score">
+            20:00pm
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="day-column" data-day="Thursday">
+        <div class="event thursday">
+          <p class="sport ucl-text">UEL</p><br>
+          <div class="team">
+            Fenerbache vs Manchester United
+          </div>
+          <div class="score">
+            20:00pm
+          </div>
+        </div>
+      </div>
+      <div class="day-column" data-day="Friday">
+        <div class="event friday-m multi-1 multi">
+          <p class="sport">Multiple Events</p><br>
+          <div class="score">
+            20:00pm
+          </div>
+        </div>
+        <div class="event f1-f">
+          <p class="sport f1-text">Mexico Grand Prix</p><br>
+          <div class="score f1-type">
+            FP1 - 23:00pm
+          </div>
+        </div>
+      </div>
+      <div class="day-column" data-day="Saturday">
+        <div class="event sat-m multi-2 multi">
+          <p class="sport">Multiple Events</p><br>
+          <div class="score">
+            15:00pm
+          </div>
+        </div>
+        <div class="event sat-mu multi-3 multi">
+          <p class="sport">Multiple Events</p><br>
+          <div class="score">
+            17:30pm
+          </div>
+        </div>
+        <div class="event f1-s">
+          <p class="sport f1-text">Mexico Grand Prix</p><br>
+          <div class="score f1-type">
+            Qualifying - 22:00pm
+          </div>
+        </div>
+      </div>
+      <div class="day-column" data-day="Sunday">
+        <div class="event sun-m multi-4 multi">
+          <p class="sport">Multiple Events</p><br>
+          <div class="score">
+            20:00pm
+          </div>
+        </div>
+        <div class="event sunday-4">
+          <p class="sport prem-text">Premier League</p><br>
+          <div class="team">
+            Arsenal vs Liverpool
+          </div>
+          <div class="score">
+            16:30pm
+          </div>
+        </div>
+        <div class="event sun-mu multi-5 multi">
+          <p class="sport">Multiple Events</p><br>
+          <div class="score">
+            14:00pm
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="multiple multi-A">
+    <p class="multi-title">Multiple Events</p>
+    <div>
+      <li class="multi-list">Mexico Grand Prix - FP1 - 19:30pm</li>
+      <li class="multi-list">Leicester City vs Nottingham Forest - Premier League - 20:00pm</li>
+    </div>
+  </div>
+  <div class="multiple multi-B">
+    <p class="multi-title">Multiple Events</p>
+    <div>
+      <li class="multi-list">Aston Villa vs Bournemouth - Premier League - 15:00pm</li>
+      <li class="multi-list">Brighton vs Wolves - Premier League - 15:00pm</li>
+      <li class="multi-list">Brentford vs Ipswich Town - Premier League - 15:00pm</li>
+      <li class="multi-list">Manchester City vs Southampton - Premier League - 15:00pm</li>
+    </div>
+  </div>
+  <div class="multiple multi-C">
+    <p class="multi-title">Multiple Events</p>
+    <div>
+      <li class="multi-list">Everton vs Fulham - Premier League - 17:30pm</li>
+      <li class="multi-list">Mexico Grand Prix - FP3 - 18:30pm</li>
+    </div>
+  </div>
+  <div class="multiple multi-E">
+    <p class="multi-title">Multiple Events</p>
+    <div>
+      <li class="multi-list">Chelsea vs Newcastle - Premier League - 14:00pm</li>
+      <li class="multi-list">Crystal Palace vs Totthenham Hotspur - Premier League - 14:00pm</li>
+      <li class="multi-list">West Ham United vs Manchester United - Premier League - 14:00pm</li>
+    </div>
+  </div>
+  <div class="multiple multi-D">
+    <p class="multi-title">Multiple Events</p>
+    <div>
+      <li class="multi-list">Mexico Grand Prix - Race - 20:00pm</li>
+      <li class="multi-list">Raiders vs Chiefs - NFL - 20:25pm</li>
+    </div>
+  </div>
+</body>  
+</html>  
