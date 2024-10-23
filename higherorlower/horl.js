@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         document.querySelector('.next-btn').style.display = 'flex';
                     } else {
                         // if user is wrong middle circle is changed to an X and game over
-                        document.querySelector('.middle-circle').src = `../images/horl/x.png`;
+                        document.querySelector('.middle-circle').src = `../images/horl/X.png`;
                         setTimeout(displayEndMenu, 1000);
                     }
                 // if it is not round 1 and the user has already won one round
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         document.querySelector('.next-btn').style.display = 'flex';
                     // if the user is incorrect the middle circle is an x and game over
                     } else {
-                        document.querySelector('.middle-circle').src = `../images/horl/x.png`;
+                        document.querySelector('.middle-circle').src = `../images/horl/X.png`;
                         setTimeout(displayEndMenu, 1000);
                     }
                 }
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         document.querySelector('.middle-circle').src = `../images/horl/tick.png`;
                         document.querySelector('.next-btn').style.display = 'flex';
                     } else {
-                        document.querySelector('.middle-circle').src = `../images/horl/x.png`;
+                        document.querySelector('.middle-circle').src = `../images/horl/X.png`;
                         setTimeout(displayEndMenu, 1000);
                     }
                 } else {
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         document.querySelector('.middle-circle').src = `../images/horl/tick.png`;
                         document.querySelector('.next-btn').style.display = 'flex';
                     } else {
-                        document.querySelector('.middle-circle').src = `../images/horl/x.png`;
+                        document.querySelector('.middle-circle').src = `../images/horl/X.png`;
                         setTimeout(displayEndMenu, 1000);
                     }
                 }
