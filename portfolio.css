@@ -564,3 +564,101 @@ li {
 .close-btn-2:hover {
     cursor: pointer;
 }
+
+.first-year, .second-year {
+    color: #484349;
+}
+
+#first-year-title, #second-year-title {
+     border-bottom: #484349 solid 2px;
+     width: 57%;
+     margin: auto;
+     margin-bottom: 25px;
+}
+
+#second-year-title {
+    text-align: right;
+}
+
+.uni-project {
+    display: flex;
+    margin: auto;
+    width: 57%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.uni-project.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.uni-project.last {
+    margin-bottom: 50px;
+}
+
+#uni-project-title {
+    margin: 30px 0px 0px 0px;
+    font-size: 24px;
+}
+
+#uni-project-info {
+    margin: 0px;
+    font-size: 12px;
+}
+
+#uni-project-desc {
+    margin: 15px 0px 0px 0px;
+    font-size: 18px;
+}
+
+#uni-project-desc-s {
+    margin: 15px 0px 0px 0px;
+    font-size: 16px;
+}
+
+#uni-project-img {
+    border-radius: 20px;
+    height: 200px;
+    margin: 25px;
+    box-shadow: none;
+}
+
+#uni-project-list-left {
+    margin-right: 10%;
+    padding: 0px;
+}
+
+#uni-project-list-left-l {
+    margin-right: 1%;
+    padding: 0px;
+}
+
+#uni-project-list-right {
+    margin-left: 10%;
+    padding: 0px;
+}
+
+.uni-project-lists {
+    display: flex;
+    list-style-position: inside;
+}
+
+#uni-list-title {
+    margin: 10px;
+}
+
+#list-item {
+    margin: 10px;
+}
+
+.uni-project-lists.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#uni-project-list-right {
+    margin-left: 1%;
+    text-align: left;
+}
