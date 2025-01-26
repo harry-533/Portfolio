@@ -1,0 +1,140 @@
+.about-section {
+    display: flex;
+    margin-top: 35px; 
+    margin-left: 50px;
+    color: #484349;
+}
+
+.information {
+    width: 55%;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 5%;
+}
+
+.about-para {
+    font-size: 20px;
+}
+
+.about-body {
+    transition: filter 0.2s ease-out
+}
+
+.about-links {
+    display: flex;
+    gap: 20px;
+    color: #0dc5b0;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 1000px;
+}
+
+.about-img {
+    box-shadow: none;
+    width: 175px;
+    vertical-align: middle;
+}
+
+.about-cv, .about-git, .about-linkedin {
+    background-color: #484349;
+    border-radius: 5px;
+    width: 250px;
+    height: 65px;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    text-decoration: none;
+    color: #0dc5b0;
+}
+
+.about-cv:hover, .about-git:hover, .about-linkedin:hover {
+    background-color: #534e54;
+    color: #11d3bd;
+}
+
+.timeline-img {
+    box-shadow: none;
+    width: 550px;
+    margin: auto;
+}
+
+.graphics {
+    position: fixed;
+    text-align: center;
+    color: #484349;
+    display: inline-block;
+    background-color: white;
+    margin-left: 24.5%;
+    z-index: 10;
+    top: 80px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: none;
+}
+
+.graphic-img, .graphic-img-2 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 160px;
+    box-shadow: none;
+}
+
+.graphic-img-2 {
+    width: 320px;
+}
+
+.graphic-gif, .graphic-gif-2 {
+    margin: 0px 0px 10px 10px;
+    width: 160px;
+    box-shadow: none;
+}
+
+.graphic-gif-2 {
+    width: 320px;
+}
+
+.graphic-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn, .close-btn-2 {
+    width: 20px;
+    box-shadow: none;
+    position: absolute;
+    right: 20px;
+    height: auto;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+}
+
+.header-graphics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.graphic-title {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.graphic-link {
+    text-decoration: underline;
+    color: #0808e7;
+}
+
+.graphic-link:hover {
+    cursor: pointer;
+}

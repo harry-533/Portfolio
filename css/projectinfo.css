@@ -1,0 +1,101 @@
+.project-details {
+    display: flex;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    width: 60%;
+    margin-left: 19.5%;
+}
+
+.project-details-para {
+    margin-left: 21.5%;
+    width: 620px;
+    color: #484349;
+}
+
+.project-img {
+    width: 350px;
+}
+
+.projects > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-info {
+    background-color: rgb(255, 255, 255);
+    color: #484349;
+    width: 330px;
+    height: 170px;
+    padding: 0px 10px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cs50w-links {
+    display: flex;
+    gap: 75px;
+}
+
+.link-btn-project {
+    background-color: #484349;
+    color: #0dc5b0;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin-left: 1px;
+    border-radius: 3px;
+}
+
+.link-btn-project:hover {
+    background-color: #534e54;
+    color:#11d3bd;
+}
+
+.skills-list {
+    display: flex;
+    margin-left: 20px;
+    gap: 130px;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.certificate-img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.certificate-btn, .certificate-btn-mobile {
+    display: block;
+    text-decoration: none;
+    color:#0dc5b0;
+    background-color: #484349;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 350px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.certificate-btn-mobile {
+    display: none;
+}
+
+.placeholder-info {
+    width: 350px;
+    box-shadow: none;
+}
