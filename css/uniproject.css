@@ -1,15 +1,15 @@
-.first-year, .second-year {
+.first-year, .second-year, .placement-year, .final-year {
     color: #484349;
 }
 
-#first-year-title, #second-year-title {
+#first-year-title, #second-year-title, #placement-year-title, #final-year-title {
      border-bottom: #484349 solid 2px;
      width: 57%;
      margin: auto;
      margin-bottom: 25px;
 }
 
-#second-year-title {
+#second-year-title, #final-year-title {
     text-align: right;
 }
 
@@ -94,4 +94,8 @@
 #uni-project-list-right {
     margin-left: 1%;
     text-align: left;
+}
+
+#odyssey-link {
+    color: #484349;
 }

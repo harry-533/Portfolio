@@ -1,0 +1,89 @@
+#disclaimer {
+    font-size: 13px;
+}
+
+.math {
+    color: #484349;
+}
+
+#math-title {
+     border-bottom: #484349 solid 2px;
+     width: 57%;
+     margin: auto;
+     margin-bottom: 25px;
+}
+
+.self-study {
+    display: flex;
+    margin: auto;
+    width: 57%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.self-study.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.self-study.last {
+    margin-bottom: 50px;
+}
+
+.self-study-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+}
+
+.self-study-heading.right {
+    width: 100%;
+}
+
+#self-study-title, #self-study-right-title {
+    margin: 15px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#self-study-right-title {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#self-study-date {
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+
+#self-study-right-date {
+    margin: 15px 0px 0px 25px;
+    padding: 0px;
+}
+
+#self-study-link {
+    color: #08a18f;
+}
+
+.self-study-info {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#self-study-info {
+    margin: 0px;
+    font-size: 12px;
+}
+
+#self-study-img {
+    border-radius: 10px;
+    height: 70px;
+    margin: 10px;
+    box-shadow: none;
+}
+
+#self-study-grade {
+    margin: 5px 0px 0px 0px;
+    font-size: 15px;
+}

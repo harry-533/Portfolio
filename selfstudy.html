@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="css/global.css">
-        <link rel="stylesheet" href="css/courses.css">
+        <link rel="stylesheet" href="css/selfstudy.css">
         <script src="portfolio.js"></script>
         <link rel="icon" href="images/tabimg.png">
-        <title>Harry Sharp - Courses</title>
+        <title>Harry Sharp - Self-study</title>
     </head>
     <body>
         <div class="header-bar">
@@ -22,7 +22,7 @@
                 <a class="header-btn" href="projects.html">Projects</a>
             </div>
             <div class="courses-subtitle">
-                <a class="header-btn-current" href="courses.html">Courses</a>
+                <a class="header-btn" href="courses.html">Courses</a>
             </div>
             <div class="study-subtitle">
                 <a class="header-btn-current" href="selfstudy.html">Self-study</a>
@@ -50,10 +50,10 @@
                 <a class="header-btn" href="about.html">About</a>
             </div>
             <div class="projects-subtitle dropdown-title">
-                <a class="header-btn" href="projects.html">Projects</a>
+                <a class="header-btn-current" href="projects.html">Projects</a>
             </div>
             <div class="courses-subtitle dropdown-title">
-                <a class="header-btn-current" href="courses.html">Courses</a>
+                <a class="header-btn" href="courses.html">Courses</a>
             </div>
             <div class="study-subtitle dropdown-title">
                 <a class="header-btn" href="selfstudy.html">Self-study</a>
@@ -66,39 +66,50 @@
             </div>
         </div>
         <div class="top-info">
-            <h1 class="top-subtitle">Courses</h1>
-            <p class="top-para">An upto date collection of the courses I have completed, including official certificates, included projects and the skills 
-                I learnt during the course:</p>
+            <h1 class="top-subtitle">Self-study</h1>
+            <p class="top-para">This is a collection of some of the classes I have done to be the best I can be at computer science:<br>
+                <span id="disclaimer">(Grades are unofficial and exams are completed under self-imposed exam conditions)</span></p>
         </div>
-        <div class="courses">
-            <div class="cs50-w">
-                <img class="course-img" src="images/cs50w.png">
-                <div class="course-info">
-                    <h2>CS50 Web Programming</h2>
-                    <p>CS50's Web Programming with Python and JavaScript</p>
-                    <a class="link-btn-course" href="courseinfo/cs50w.html">Course details</a>
+        <div class="math">
+            <h2 id="math-title">Maths</h2>
+            <div class="self-study">
+                <img id="self-study-img" src="images/MIT.png">
+                <div class="self-study-info">
+                    <div class="self-study-heading">
+                        <h3 id="self-study-title">Single Variable Calculus</h3>
+                        <h4 id="self-study-date">Apr 10th - current</h4>
+                    </div>
+                    <h5 id="self-study-info"><a id="self-study-link" href="https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/">MIT OpenCourseWare 18.01SC</a></h5>
+                    <div class="uni-project-lists">
+                        <h4 id="self-study-grade">Grade - ??%</h4>
+                    </div>
                 </div>
             </div>
-            <div class="cs50-ai">
-                <img class="course-img" src="images/cs50ai.png">
-                <div class="course-info">
-                    <h2>CS50 Artificial Intelligence</h2>
-                    <p>CS50's Introduction to Artificial Intelligence with Python</p>
-                    <a class="link-btn-course" href="courseinfo/cs50ai.html">Course details</a>
+            <div class="self-study right">
+                <div class="self-study-info">
+                    <div class="self-study-heading right">
+                        <h4 id="self-study-right-date">?? - ??</h4>
+                        <h3 id="self-study-right-title">Multivariable Calculus</h3>
+                    </div>
+                    <h5 id="self-study-info"><a id="self-study-link" href="https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/">MIT OpenCourseWare 18.02SC</a></h5>
+                    <div class="uni-project-lists">
+                        <h4 id="self-study-grade">Grade - ??%</h4>
+                    </div>
+                </div>
+                <img id="self-study-img" src="images/MIT.png">
+            </div>
+            <div class="self-study">
+                <img id="self-study-img" src="images/MIT.png">
+                <div class="self-study-info">
+                    <div class="self-study-heading">
+                        <h3 id="self-study-title">Linear Algebra</h3>
+                        <h4 id="self-study-date">?? - ??</h4>
+                    </div>
+                    <h5 id="self-study-info"><a id="self-study-link" href="https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/">MIT OpenCourseWare 18.06</a></h5>
+                    <div class="uni-project-lists">
+                        <h4 id="self-study-grade">Grade - ??%</h4>
+                    </div>
                 </div>
             </div>
-            <div class="cisco-netacad">
-                <img class="course-img" src="images/cisco.jpg">
-                <div class="course-info">
-                    <h2>Cisco Networking Academy</h2>
-                    <p>Computer Network Fundamentals</p>
-                    <a class="link-btn-course" href="courseinfo/cisco.html">Course details</a>
-                </div>
-            </div> 
-            <div class="placeholder-course">
-                <div class="placeholder-info">
-                </div>
-            </div>   
-        </div>
     </body>
 </html>
