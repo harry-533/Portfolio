@@ -18,6 +18,11 @@ a {
     color: #484349;
 }
 
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
 #videos {
     color: #0dc5b0;
     text-decoration: underline;
@@ -27,7 +32,6 @@ a {
 .year {
     display: flex;
     gap: 1.5%;
-    margin-top: 50px;
 }
 
 .section {
@@ -63,10 +67,23 @@ a {
     border-top: 2px solid #484349; 
 }
 
+.stats-top {
+    display: flex;
+    margin-right: 110px;
+    gap: 30px;
+}
+
 .circle-container {
     position: relative;
     width: 180px;
     height: 180px;
+    margin: 20px;
+}
+
+.circle-container-top {
+    position: relative;
+    width: 120px;
+    height: 120px;
     margin: 20px;
 }
   
@@ -74,7 +91,7 @@ a {
     transform: rotate(-90deg);
 }
   
-.ring-bg-y1, .ring-bg-y2, .ring-bg-f1, .ring-bg-f2 {
+.ring-bg-y1, .ring-bg-y2, .ring-bg-f1, .ring-bg-f2, .ring-bg-top {
     fill: none;
     stroke: #e6e6e6;
     stroke-width: 12;
@@ -85,7 +102,7 @@ a {
     margin: 10px 0px 10px 0px;
 }
   
-.ring-fill-y1, .ring-fill-y2, .ring-fill-f1, .ring-fill-f2 {
+.ring-fill-y1, .ring-fill-y2, .ring-fill-f1, .ring-fill-f2, .ring-fill-top {
     fill: none;
     stroke-width: 12;
     stroke-linecap: round;
@@ -94,7 +111,7 @@ a {
     transition: stroke-dashoffset 1s ease-out;
 }
   
-.percentage-text {
+.percentage-text, .percentage-text-top {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -102,6 +119,10 @@ a {
     font-size: 28px;
     font-weight: bold;
     color: #0dc5b0;
+}
+
+.percentage-text-top {
+    font-size: 24px;
 }
 
 .amount {
@@ -113,24 +134,54 @@ a {
     font-size: 45px;
 }
 
-.amount .top-left-y1, .top-left-y2, .top-left-f1, .top-left-f2 {
+.amount-top {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: 30px 20px;
+    font-size: 45px;
+}
+
+.amount .top-left-y1, .top-left-y2, .top-left-f1, .top-left-f2, .top-left-top {
     position: absolute;
     top: 20px;
     left: 30px;
     color: #0dc5b0;
 }
 
-.amount .bottom-right-y1, .bottom-right-y2, .bottom-right-f1, .bottom-right-f2 {
+.top-left-top {
+    top: 5px;
+    left: -5px;
+}
+
+.amount .bottom-right-y1, .bottom-right-y2, .bottom-right-f1, .bottom-right-f2, .bottom-right-top {
     position: absolute;
     bottom: 20px;
-    right: 30px;
+    right: 35px;
     color: #0dc5b0;
+}
+
+.bottom-right-top {
+    bottom: 10px;
+    right: 15px;
 }
 
 .amount .diagonal-line {
     position: absolute;
     top: 80px;
     left: 10px;
+    width: 85%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #484349;
+    transform: rotate(135deg);
+}
+
+.amount-top .diagonal-line {
+    position: absolute;
+    top: 50px;
+    left: -10px;
     width: 85%;
     height: 5px;
     border-radius: 10px;
